@@ -27,13 +27,14 @@ def classify_animal(image):
 
 # Optional: you can add example images
 example_images = [
-    ["example_images/cat.jpeg"],
-    ["example_images/chicken1.jpeg"],
-    ["example_images/chicken2.jpeg"],
-    ["example_images/elefant.jpg"],
-    ["example_images/spider.jpeg"],
-    ["example_images/butterfly.jpg"]
+    "example_images/cat.jpeg",
+    "example_images/chicken1.jpeg",
+    "example_images/chicken2.jpeg",
+    "example_images/elefant.jpg",
+    "example_images/spider.jpeg",
+    "example_images/butterfly.jpg"
 ]
+
 
 iface = gr.Interface(
     fn=classify_animal,
@@ -41,7 +42,8 @@ iface = gr.Interface(
     outputs=gr.JSON(),
     title="Animals-10 Classification: ViT vs CLIP",
     description="Upload an animal image to compare predictions from your trained ViT model and a zero-shot CLIP model.",
-    examples=example_images
+    examples=example_images  # <- jetzt korrekt
 )
+
 
 iface.launch()
