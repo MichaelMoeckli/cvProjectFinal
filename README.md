@@ -8,9 +8,9 @@ This project classifies images into one of 10 animal categories using a trained 
 
 | Name           | URL                    |
 |----------------|------------------------|
-| Huggingface    | [Huggingface Space]([https://huggingface.co/spaces/YourUsername/animals10-classifier](https://huggingface.co/spaces/MichaelMM2000/animals10-demo)) |
-| Model Page     | [Huggingface Model Page]([https://huggingface.co/YourUsername/animals10-vit](https://huggingface.co/MichaelMM2000/vit-base-animals10)) |
-| Code           | [GitHub Repository]([https://github.com/YourUsername/animals10-classifier](https://github.com/MichaelMoeckli/cvProjectFinal)) |
+| Huggingface    | [Huggingface Space](https://huggingface.co/spaces/MichaelMM2000/animals10-demo) |
+| Model Page     | [Huggingface Model Page](https://huggingface.co/MichaelMM2000/vit-base-animals10) |
+| Code           | [GitHub Repository](https://github.com/MichaelMoeckli/cvProjectFinal) |
 
 ## Labels
 The different animal categories are:
@@ -21,6 +21,7 @@ The different animal categories are:
 | Data Source        | Description                                           |
 |--------------------|-------------------------------------------------------|
 | Animals-10 Dataset | Public dataset containing 10 animal categories.       |
+| Google drive | [Public dataset containing 10 animal categories.](https://drive.google.com/file/d/14q2Qf9mukDZTZWcHMgjLbECtGd_UESHj/view)       |
 
 ## Data Augmentation
 
