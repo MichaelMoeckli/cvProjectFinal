@@ -72,8 +72,10 @@ Details of training can be found at Huggingface TensorBoard:
 | Model/Method                                                  | Accuracy | Precision | Recall |
 |---------------------------------------------------------------|----------|-----------|--------|
 | Transfer Learning with google/vit-base-patch16-224 (with aug.) | 99.00%   | -         | -      |
+| Transfer Learning with google/vit-base-patch16-224 (no aug.)   | 99.49%   | -         | -      |
 | Zero-shot Classification with openai/clip-vit-base-patch32     | 99.00%   | -         | -      |
 
+The model without data augmentation achieved slightly better accuracy (99.49%) than the one with augmentation (99.00%). This can happen because the Animals-10 dataset has clean, centered images, and augmentations like cropping or color changes may disrupt useful features. Since the model already generalizes well, extra transformations might have slightly hurt performance.
 
 ## References
 - Animals-10 Dataset
