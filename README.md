@@ -71,7 +71,7 @@ Details of training can be found at Huggingface TensorBoard:
 
 | Model/Method                                                  | Accuracy | Precision | Recall |
 |---------------------------------------------------------------|----------|-----------|--------|
-| Transfer Learning with google/vit-base-patch16-224 (with aug.) | 99.00%   | -         | -      |
+| Transfer Learning with google/vit-base-patch16-224 (with aug.) | 98.40%   | -         | -      |
 | Transfer Learning with google/vit-base-patch16-224 (no aug.)   | 99.49%   | -         | -      |
 | Zero-shot Classification with openai/clip-vit-base-patch32     | 99.36%   | 99.37         | 99.36      |
 
