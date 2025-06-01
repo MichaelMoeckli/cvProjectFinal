@@ -1,0 +1,21 @@
+# Core packages
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+matplotlib
+pandas
+
+# Evaluation tools
+scikit-learn
+
+# Hugging Face Hub for zero-shot and deployment
+transformers
+huggingface_hub
+
+# Jupyter Notebook support (optional, for local running)
+jupyter
+
+# Image processing
+Pillow
+
+evaluate
