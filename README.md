@@ -60,8 +60,8 @@ Details of training can be found at Huggingface TensorBoard:
 
 | Model/Method                                                      | TensorBoard Link                        |
 |------------------------------------------------------------------|-----------------------------------------|
-| Transfer Learning with google/vit-base-patch16-224 (with aug.)   | `runs/animals10_with_aug`              |
-| Transfer Learning with google/vit-base-patch16-224 (no aug.)     | `runs/animals10_no_aug`                |
+| Transfer Learning with google/vit-base-patch16-224 (with aug.)   | `runs/Jun01_10-55-24_cs-01jwnhdb68etg2xr4j1yga79wz`                |
+| Transfer Learning with google/vit-base-patch16-224 (no aug.)     | `runs/Jun01_13-16-37_cs-01jwnqfm7bt4be71dq5a10q9pe`                |
 
 ## Results
 
