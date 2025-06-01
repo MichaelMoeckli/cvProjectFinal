@@ -67,7 +67,7 @@ Details of training can be found at Huggingface TensorBoard:
 ![image](https://github.com/user-attachments/assets/ff1708f8-8090-47a3-b5cc-5dc1bd786ee6)
 
 
-## Results
+## Results and Conclusion
 
 | Model/Method                                                  | Accuracy | Precision | Recall |
 |---------------------------------------------------------------|----------|-----------|--------|
@@ -75,7 +75,11 @@ Details of training can be found at Huggingface TensorBoard:
 | Transfer Learning with google/vit-base-patch16-224 (no aug.)   | 99.49%   | -         | -      |
 | Zero-shot Classification with openai/clip-vit-base-patch32     | 99.36%   | 99.37         | 99.36      |
 
-The model without data augmentation achieved slightly better accuracy (99.49%) than the one with augmentation (99.00%). This can happen because the Animals-10 dataset has clean, centered images, and augmentations like cropping or color changes may disrupt useful features. Since the model already generalizes well, extra transformations might have slightly hurt performance.
+This project demonstrated that a ViT model fine-tuned on the Animals-10 dataset can achieve excellent classification performance, reaching up to 99.49% accuracy without data augmentation. Interestingly, the version trained without augmentation outperformed the augmented one, likely because the dataset consists of high-quality, centered images where augmentations may have introduced noise rather than helpful variety.
+
+The comparison with the zero-shot CLIP model showed that CLIP can perform nearly as well — also achieving around 99% accuracy — without any task-specific training. This highlights the strength of pre-trained vision-language models for general classification tasks.
+
+Overall, this project confirms that transfer learning with ViT is highly effective for structured image classification, while CLIP offers a flexible, training-free alternative that is surprisingly competitive, especially for smaller or simpler datasets.
 
 ## References
 - Animals-10 Dataset
