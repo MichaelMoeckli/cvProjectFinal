@@ -44,13 +44,15 @@ The dataset was split as follows:
 
 ### Training Metrics
 
+### Training Metrics
+
 | Epoch | Training Loss | Validation Loss | Accuracy |
 |-------|----------------|-----------------|----------|
-| 1     | 0.544          | 0.402           | 85.20%   |
-| 2     | 0.354          | 0.298           | 88.75%   |
-| 3     | 0.294          | 0.261           | 90.10%   |
-| 4     | 0.239          | 0.230           | 91.40%   |
-| 5     | 0.210          | 0.219           | 92.00%   |
+| 1     | 0.099700       | 0.092796        | 97.32%   |
+| 2     | 0.075200       | 0.067789        | 98.09%   |
+| 3     | 0.074300       | 0.058433        | 98.39%   |
+| 4     | 0.088200       | 0.060490        | 97.92%   |
+| 5     | 0.065600       | 0.065273        | 98.13%   |
 
 ## TensorBoard
 
@@ -64,10 +66,10 @@ Details of training can be found at Huggingface TensorBoard:
 ## Results
 
 | Model/Method                                                  | Accuracy | Precision | Recall |
-|--------------------------------------------------------------|----------|-----------|--------|
-| Transfer Learning with google/vit-base-patch16-224 (with aug.) | 92%      | -         | -      |
-| Transfer Learning with google/vit-base-patch16-224 (no aug.)   | 90%      | -         | -      |
-| Zero-shot Classification with openai/clip-vit-base-patch32     | 85%      | 84.3%     | 85%    |
+|---------------------------------------------------------------|----------|-----------|--------|
+| Transfer Learning with google/vit-base-patch16-224 (with aug.) | 99.00%   | -         | -      |
+| Zero-shot Classification with openai/clip-vit-base-patch32     | 99.00%   | -         | -      |
+
 
 ## References
 - Animals-10 Dataset
