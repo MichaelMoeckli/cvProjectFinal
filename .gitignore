@@ -3,3 +3,4 @@ __pycache__/
 data/
 models/
 notebooks/vit-base-animals10
+animals10.zip
