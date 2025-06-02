@@ -20,7 +20,7 @@ The different animal categories are:
 
 | Data Source        | Description                                           |
 |--------------------|-------------------------------------------------------|
-| Animals-10 Dataset | Public dataset containing 10 animal categories.       |
+| Animals-10 Dataset | Public dataset containing 10 animal categories.  Mirror of Animals-10 dataset (original hosted on Kaggle). Used for convenience.  |
 | Google drive | [Public dataset containing 10 animal categories.](https://drive.google.com/file/d/14q2Qf9mukDZTZWcHMgjLbECtGd_UESHj/view)       |
 
 ## Data Augmentation
@@ -45,8 +45,6 @@ The dataset was split as follows:
 
 ### Training Metrics
 
-### Training Metrics
-
 | Epoch | Training Loss | Validation Loss | Accuracy |
 |-------|----------------|-----------------|----------|
 | 1     | 0.099700       | 0.092796        | 97.32%   |
@@ -66,6 +64,13 @@ Details of training can be found at Huggingface TensorBoard:
 
 ![image](https://github.com/user-attachments/assets/ff1708f8-8090-47a3-b5cc-5dc1bd786ee6)
 
+## Model Card Summary
+
+- **Architecture**: Vision Transformer (ViT)
+- **Pretrained base**: google/vit-base-patch16-224
+- **Training task**: Image classification (Animals-10)
+- **Finetuned layers**: Classifier head
+- **Zero-shot model**: openai/clip-vit-base-patch32
 
 ## Results and Conclusion
 
